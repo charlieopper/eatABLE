@@ -1,6 +1,12 @@
+import React from 'react';
+import { TopNav } from './LandingPage/TopNav/TopNav';
+
 function App() {
   return (
-  <p>lets do this shit</p>
+   <div>
+   <TopNav/>
+   </div>
+
   );
 }
 
