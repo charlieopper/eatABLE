@@ -1,0 +1,28 @@
+.fa-plus,
+.fa-minus,
+.fa-search-plus,
+.fa-search-minus {
+	color: var(--textColor);
+}
+.fa-plus:hover,
+.fa-minus:hover,
+.fa-search-plus:hover,
+.fa-search-minus:hover {
+	color: var(--redColor);
+	cursor: pointer;
+}
+
+.form-control,
+.form-control:focus {
+	background-color: #303030;
+	color: var(--headerTextColor);
+}
+
+.btn-form {
+	background-color: var(--restaurantBackColor) !important;
+	color: var(--headerTextColor);
+}
+.btn-form:hover {
+	background-color: var(--headerTextColor) !important;
+	color: var(--restaurantBackColor);
+}

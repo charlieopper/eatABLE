@@ -1,0 +1,57 @@
+.card-title {
+	color: var(--textColor);
+}
+
+.card {
+	background-color: var(--restaurantBackColor);
+}
+
+.restaurants-list-container {
+	height: 100vh;
+	overflow: scroll;
+	background-color: var(--restaurantContainerBackColor);
+}
+
+.bg-primary {
+	background-color: var(--headerBackColor) !important;
+}
+
+.card-form {
+	background-color: var(--headerBackColor);
+	box-shadow: none;
+}
+
+.card-form:hover {
+	background-color: var(--headerBackColor);
+	box-shadow: none;
+}
+
+.btn-form {
+	background-color: #ffb400;
+}
+
+.fa-sort-amount-down {
+	color: var(--icon);
+}
+
+.fa-sort-amount-up {
+	color: var(--icon);
+}
+
+.fa-star {
+	color: var(--icon);
+}
+
+.fa-utensils {
+	color: var(--icon);
+}
+
+.hidden {
+	display: none;
+}
+
+@media only screen and (max-width: 991px) {
+	.restaurants-list-container {
+		height: 50vh;
+	}
+}

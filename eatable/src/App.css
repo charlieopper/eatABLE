@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--icon: #ffb400;
+	--restaurantContainerBackColor: #303030;
+	--restaurantBackColor: #303030;
+	--shadowColor: #242424;
+	--headerBackColor: #242424;
+	--headerTextColor: #93c991;
+	--textColor: #b3b3b3;
+	--redColor: #ff4242;
+}
+
+.btn-primary {
+	border: none;
+}
+
+h1 {
+	font-size: 60px;
+	color: #ffb400;
+}
+
+a:hover {
+	text-decoration: none;
+}
