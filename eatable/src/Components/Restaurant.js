@@ -104,8 +104,10 @@ export default class Restaurant extends Component {
 					<div className="restaurant-img-container col-lg-6 col-12 d-flex justify-content-center align-items-center">
 						<img
 							className="img-fluid"
-							src={`https://maps.googleapis.com/maps/api/streetview?size=200x200&location=${this.props.restaurant.lat},${this.props.restaurant.long}&fov=50&heading=235&pitch=0&key=${'AIzaSyDhYcowE_ZRiQqLL9HaHEGldrtYJwyAzE4'}`}
+							src={`https://maps.googleapis.com/maps/api/streetview?size=200x200&location=${this.props.restaurant.lat},${this.props.restaurant.long}&fov=50&heading=235&pitch=0&key=${'AIzaSyDWmtEWhHkaBmomrESWj32bK4iXOHp5KGU'}`}
 							alt="restaurant view"
+							 /*change to pictures of food not streetview*/
+							 /*handle errors on photo load*/
 						/>
 					</div>
 				</div>

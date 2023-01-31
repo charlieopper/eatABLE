@@ -74,7 +74,6 @@ export default class TargetedRestaurant extends Component {
 						<h3 className="restaurant-name pr-3">
 							{this.props.restaurant.name}
 						</h3>
-
 						<span>{this.props.restaurant.description}</span>
 					</div>
 					<div className="no-pointer">
@@ -190,7 +189,7 @@ export default class TargetedRestaurant extends Component {
 									) : (
 										<img
 											className="card-img-top"
-											src={`https://maps.googleapis.com/maps/api/streetview?size=200x200&location=${this.props.restaurant.address}&fov=50&heading=235&pitch=0&key=${'AIzaSyDhYcowE_ZRiQqLL9HaHEGldrtYJwyAzE4'}`}
+											src={`https://maps.googleapis.com/maps/api/streetview?size=200x200&location=${this.props.restaurant.address}&fov=50&heading=235&pitch=0&key=${'AIzaSyDWmtEWhHkaBmomrESWj32bK4iXOHp5KGU'}`}
 											alt="restaurant view"
 										/>
 									)}
@@ -275,7 +274,6 @@ export default class TargetedRestaurant extends Component {
 															className="btn-primary rounded"
 															/* data-toggle="collapse"
 															href="#collapseFormComment" */
-															role="button"
 															aria-expanded="false"
 															aria-controls="collapseFormComment"
 															onClick={() => this.handleBtnIcon()}

@@ -33,6 +33,10 @@ export default class RestaurantsList extends Component {
 				<div className={this.props.restaurantsListView ? "" : "hidden"}>
 					<div className="card text-white bg-primary mb-3">
 						<div className="card-header">
+							<div class="d-flex flex-row bd-highlight mb-3">
+  								<div class="p-2 w-100 bd-highlight">Login</div>
+								  <div class="p-2 bd-highlight ">Create Profile</div>
+							</div>
 							<div className="hero-container">
 								<div className="d-flex flex-column align-items-center justify-content-center">
 									<h1 className="logo d-flex justify-content-center">eatAble</h1>

@@ -160,11 +160,10 @@ export default class RestaurantForm extends Component {
 									onStarClick={this.onStarClick}
 								/>
 							</div>
-							<div className="col-12 text-center">
+							<div className="col-12 text-center"> 
 								<button
 									className="btn btn-form rounded"
 									href="#collapseForm"
-									role="button"
 									aria-expanded="false"
 									aria-controls="collapseForm"
 									onClick={() => this.handleBtnIcon()}
