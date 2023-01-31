@@ -1,3 +1,3 @@
 # eatABLE
 
-To view in browser: clone repository, install npm, then `npm start`
+To view in browser: clone repository, then `yarn install` then `yarn start`
